@@ -303,6 +303,11 @@ const readJsonFile = ((filename, { optional = false } = {}) => {
     const content = fs.readFileSync(filename, 'utf-8');
     if (isLfsPointer(content))
     {
+        if (optional)
+        {
+            return undefined;
+        }
+
         throw new Error(`${filename} is a Git LFS pointer, not JSON. Delete it and rerun the fetcher.`);
     }
 
@@ -313,6 +318,13 @@ const readJsonFile = ((filename, { optional = false } = {}) => {
     catch (error)
     {
         throw new Error(`Failed to parse ${filename}: ${error.message}`);
+    }
+});
+
+const deleteIfExists = ((filename) => {
+    if (fs.existsSync(filename))
+    {
+        fs.unlinkSync(filename);
     }
 });
 
@@ -360,9 +372,10 @@ const downloadItemsJson = (async () => {
     try
     {
         execSync('git lfs install', { stdio: 'inherit' });
-        execSync(`git clone --depth 1 --filter=blob:none --sparse "${SPT_REPO}" "${tempDir}"`, { stdio: 'inherit', env: lfsEnv });
+        // No --depth 1: shallow clones break sparse-checkout + LFS on SPT's repo
+        execSync(`git clone --single-branch --filter=blob:none --sparse "${SPT_REPO}" "${tempDir}"`, { stdio: 'inherit', env: lfsEnv });
         execSync(`git sparse-checkout set --no-cone "/${SPT_ITEMS_PATH}"`, { cwd: tempDir, stdio: 'inherit', env: lfsEnv });
-        execSync('git lfs pull', { cwd: tempDir, stdio: 'inherit' });
+        execSync(`git lfs pull origin HEAD --include="${SPT_ITEMS_PATH}"`, { cwd: tempDir, stdio: 'inherit' });
 
         const sourcePath = path.join(tempDir, SPT_ITEMS_PATH);
         if (!fs.existsSync(sourcePath))
@@ -370,12 +383,19 @@ const downloadItemsJson = (async () => {
             throw new Error(`Git LFS checkout completed but ${SPT_ITEMS_PATH} was not found`);
         }
 
-        fs.copyFileSync(sourcePath, 'items.json');
+        const sourceContent = fs.readFileSync(sourcePath, 'utf-8');
+        if (isLfsPointer(sourceContent))
+        {
+            throw new Error('Git LFS pull did not replace the pointer file with actual JSON');
+        }
+
+        fs.writeFileSync('items.json', sourceContent);
         readJsonFile('items.json');
         console.log('items.json downloaded successfully via Git LFS');
     }
     catch (error)
     {
+        deleteIfExists('items.json');
         console.warn(`Could not download items.json via Git LFS (${error.message})`);
         console.warn('Continuing with sptprices.json item IDs only — ammo pack edge-case pricing will be skipped');
     }
