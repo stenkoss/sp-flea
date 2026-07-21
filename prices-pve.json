@@ -1165,9 +1165,9 @@
     },
     "5737287724597765e1625ae2": {
         "priceMin": 3800,
-        "price": 3833,
+        "price": 3900,
         "offerCount": 3,
-        "timestamp": 1784620083000
+        "timestamp": 1784605682000
     },
     "573728cc24597765cc785b5d": {
         "priceMin": 2222,
@@ -2592,10 +2592,10 @@
         "timestamp": 1784572682000
     },
     "5926f2e086f7745aae644231": {
-        "priceMin": 35000,
-        "price": 54713,
-        "offerCount": 12,
-        "timestamp": 1784604482000
+        "priceMin": 44444,
+        "price": 50218,
+        "offerCount": 16,
+        "timestamp": 1784611683000
     },
     "5926f34786f77469195bfe92": {
         "priceMin": 49999,
@@ -3504,10 +3504,10 @@
         "timestamp": 1784605082000
     },
     "5a13ef0686f7746e5a411744": {
-        "priceMin": 67777,
-        "price": 79881,
-        "offerCount": 18,
-        "timestamp": 1784598482000
+        "priceMin": 400000,
+        "price": 467715,
+        "offerCount": 17,
+        "timestamp": 1784612282000
     },
     "5a13ef7e86f7741290491063": {
         "priceMin": 78750,
@@ -4908,10 +4908,10 @@
         "timestamp": 1784603882000
     },
     "5b30b0dc5acfc400153b7124": {
-        "priceMin": 9900,
-        "price": 14161,
-        "offerCount": 9,
-        "timestamp": 1784630282000
+        "priceMin": 17999,
+        "price": 18416,
+        "offerCount": 4,
+        "timestamp": 1784601483000
     },
     "5b30bc165acfc40016387293": {
         "priceMin": 34000,
@@ -7518,10 +7518,10 @@
         "timestamp": 1784601483000
     },
     "5d00e0cbd7ad1a6c6566a42d": {
-        "priceMin": 15000,
-        "price": 30491,
-        "offerCount": 7,
-        "timestamp": 1784603882000
+        "priceMin": 10000,
+        "price": 28369,
+        "offerCount": 6,
+        "timestamp": 1784611084000
     },
     "5d00ec68d7ad1a04a067e5be": {
         "priceMin": 24444,
@@ -8022,10 +8022,10 @@
         "timestamp": 1784558884000
     },
     "5d3eb3b0a4b93615055e84d2": {
-        "priceMin": 24999,
-        "price": 32799,
-        "offerCount": 35,
-        "timestamp": 1784640483000
+        "priceMin": 40000,
+        "price": 51500,
+        "offerCount": 10,
+        "timestamp": 1784605082000
     },
     "5d3eb4aba4b93650d64e497d": {
         "priceMin": 1111,
@@ -8592,10 +8592,10 @@
         "timestamp": 1784605082000
     },
     "5de8eac42a78646d96665d91": {
-        "priceMin": 43000,
-        "price": 53222,
-        "offerCount": 3,
-        "timestamp": 1784602083000
+        "priceMin": 29990,
+        "price": 44164,
+        "offerCount": 4,
+        "timestamp": 1784609282000
     },
     "5de8f237bbaf010b10528a70": {
         "priceMin": 14000,
@@ -10218,10 +10218,10 @@
         "timestamp": 1784605082000
     },
     "606eef756d0bd7580617baf8": {
-        "priceMin": 19000,
-        "price": 22131,
-        "offerCount": 9,
-        "timestamp": 1784639282000
+        "priceMin": 7776,
+        "price": 8518,
+        "offerCount": 3,
+        "timestamp": 1784603283000
     },
     "606ef0812535c57a13424d20": {
         "priceMin": 11111,
@@ -11028,10 +11028,10 @@
         "timestamp": 1783357083000
     },
     "618b9643526131765025ab35": {
-        "priceMin": 35000,
-        "price": 78333,
-        "offerCount": 9,
-        "timestamp": 1784645884000
+        "priceMin": 66660,
+        "price": 72698,
+        "offerCount": 5,
+        "timestamp": 1784602681000
     },
     "618b9671d14d6d5ab879c5ea": {
         "priceMin": 44444,
@@ -12043,9 +12043,9 @@
     },
     "65702652cfc010a0f5006a53": {
         "priceMin": 444444,
-        "price": 467222,
-        "offerCount": 88,
-        "timestamp": 1784605682000
+        "price": 490083,
+        "offerCount": 104,
+        "timestamp": 1784612882000
     },
     "65702656c5d7d4cb4d078591": {
         "priceMin": 39000,
@@ -12522,16 +12522,16 @@
         "timestamp": 1784600282000
     },
     "62a9cb937377a65d7b070cef": {
-        "priceMin": 19999,
-        "price": 32776,
-        "offerCount": 5,
-        "timestamp": 1784605082000
+        "priceMin": 30000,
+        "price": 30000,
+        "offerCount": 1,
+        "timestamp": 1784612282000
     },
     "62e14904c2699c0ec93adc47": {
-        "priceMin": 33000,
-        "price": 52695,
-        "offerCount": 20,
-        "timestamp": 1784654883000
+        "priceMin": 53699,
+        "price": 85047,
+        "offerCount": 5,
+        "timestamp": 1784605082000
     },
     "62e153bcdb1a5c41971c1b5b": {
         "priceMin": 25000,
@@ -13467,7 +13467,7 @@
         "priceMin": 20000,
         "price": 27650,
         "offerCount": 5,
-        "timestamp": 1784602083000
+        "timestamp": 1784609282000
     },
     "64b9e265c94d0d15c5027e35": {
         "priceMin": 2000,
@@ -14526,10 +14526,10 @@
         "timestamp": 1784605082000
     },
     "6642f63667f5cb56a00662eb": {
-        "priceMin": 10000,
-        "price": 12545,
-        "offerCount": 9,
-        "timestamp": 1784651282000
+        "priceMin": 9666,
+        "price": 9818,
+        "offerCount": 2,
+        "timestamp": 1784600882000
     },
     "664301213dd83ddae20dda18": {
         "priceMin": 9999,
@@ -14815,9 +14815,9 @@
     },
     "66b37ea4c5d72b0277488439": {
         "priceMin": 52000,
-        "price": 53417,
-        "offerCount": 16,
-        "timestamp": 1784606882000
+        "price": 54664,
+        "offerCount": 11,
+        "timestamp": 1784614083000
     },
     "66b37eb4acff495a29492407": {
         "priceMin": 80000,
@@ -15672,10 +15672,10 @@
         "timestamp": 1784605082000
     },
     "67f924b1b07831a6ef0ce317": {
-        "priceMin": 800000,
-        "price": 958428,
-        "offerCount": 7,
-        "timestamp": 1784605082000
+        "priceMin": 750000,
+        "price": 901125,
+        "offerCount": 8,
+        "timestamp": 1784612282000
     },
     "5448c12b4bdc2d02308b456f": {
         "priceMin": 1011,
@@ -16029,7 +16029,7 @@
         "priceMin": 10000,
         "price": 10000,
         "offerCount": 2,
-        "timestamp": 1784604482000
+        "timestamp": 1784611683000
     },
     "57dc347d245977596754e7a1": {
         "priceMin": 1650,
