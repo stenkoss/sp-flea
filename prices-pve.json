@@ -17994,10 +17994,10 @@
         "timestamp": 1788133083000
     },
     "5fc2360f900b1d5091531e19": {
-        "priceMin": 4000,
-        "price": 4000,
+        "priceMin": 50000,
+        "price": 50000,
         "offerCount": 1,
-        "timestamp": 1786896484000
+        "timestamp": 1785110400000
     },
     "5fc23636016cce60e8341b05": {
         "priceMin": 15000,
@@ -18972,10 +18972,10 @@
         "timestamp": 1785715200000
     },
     "637ba29bf7ca6372bf2613db": {
-        "priceMin": 11111,
-        "price": 11111,
+        "priceMin": 22222,
+        "price": 22222,
         "offerCount": 1,
-        "timestamp": 1786892884000
+        "timestamp": 1785715200000
     },
     "637f57b78d137b27f70c496a": {
         "priceMin": 19000,

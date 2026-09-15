@@ -18336,10 +18336,10 @@
         "timestamp": 1789137482000
     },
     "625ebcef6f53af4aa66b44dc": {
-        "priceMin": 1000,
-        "price": 1000,
+        "priceMin": 5000,
+        "price": 5000,
         "offerCount": 1,
-        "timestamp": 1786888681000
+        "timestamp": 1781827200000
     },
     "625ff2ccb8c587128c1a01dd": {
         "priceMin": 1500,
